@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    background-color: rgb(59, 57, 57);
+    padding: 10px;
+    color: white;
+   
+ }
+ li{
+     padding: 10px;
+     display: inline;
+ 
+ }
+ li:hover{
+     background-color: rgb(18, 160, 18);
+     cursor: pointer;
+ }
+ ul a{
+     text-decoration: none;
+     color: white;
+ }
+ .selected{ background-color: rgb(18, 160, 18);}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+<bebidas>
+    <plato nombre="coca-cola" precio="2€" img="./imagenes/cocacola.png">
+        plato refescante.
+    </plato>
+    <plato nombre="vino tinto" precio="10€" img="./imagenes/vinotinto.png">
+        Vino tinto de la rioja.
+    </plato>
+    <plato nombre="vino blanco" precio="15€" img="./imagenes/vinoblanco.png">
+        Vino blanco del penedes.
+    </plato>
+    <plato nombre="Fanta de naranja" precio="2€" img="./imagenes/fantanaranja.png">
+        plato refescante de naranja.
+    </plato>
+    <plato nombre="cava" precio="100€" img="./imagenes/cava.png">
+        Cava espumoso semiseco, catalán.
+    </plato>
+</bebidas>
+<comidas>
+    <plato nombre="tortilla de patatas" precio="50€" img="./imagenes/tortillapatatas.png">
+        tortilla con patatas fritas.
+    </plato>
+    <plato nombre="patatas bravas" precio="60€" img="./imagenes/patatasbravas.png">
+        Patatas fritas con una salsa ligeramente picante.
+    </plato>
+    <plato nombre="olivas rellenas de pimiento" precio="15€" img="./imagenes/olivaspimiento.png">
+        Olivas de jaen rellenas de pimientos del padrón de galicia.
+    </plato>
+    <plato nombre="pizza de la casa" precio="20€" img="./imagenes/pizzacasa.png">
+        Pizza con carne picada, cebolla , pimentos y tomate.
+    </plato>
+    <plato nombre="pizza de la casa del vecino" precio="26€" img="./imagenes/pizzacasavecino.png">
+        Pizza con picada, cebolla y tomate.
+    </plato>
+</comidas>
+<postres>
+</postres>
+</menu>

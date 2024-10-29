@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú del Bar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bar La Esquina</h1>
+    <p>Bienvenido a nuestro bar, explora nuestro menú.</p>
+  </header>
+  <mt-vsiderbar items='
+            [{
+                "Tittle":"Bebidas", 
+                "Adr":"bebidas.html"
+            },
+            {
+                "Tittle":"Platos", 
+                "Adr":"platos.html"
+            },
+            {
+                "Tittle":"Postres", 
+                "Adr":"postres.html"
+            }]'
+        
+    css="aa.css"></mt-vsiderbar>
+  <section id="bebidas">
+    <h2>Bebidas</h2>
+    <div class="menu-item">
+      <img src="imagenes/cerveza.png" alt="Cerveza Artesanal">
+      <div class="item-text">
+        <h3>Cerveza Artesanal</h3>
+        <p>Una selección de cervezas artesanales locales. <span>$5.00</span></p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="imagenes/coctel.png" alt="Cóctel de la Casa">
+      <div class="item-text">
+        <h3>Cóctel de la Casa</h3>
+        <p>Cóctel especial de la casa hecho con ingredientes frescos. <span>$7.00</span></p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="imagenes/vino.png" alt="Vino Tinto">
+      <div class="item-text">
+        <h3>Vino Tinto</h3>
+        <p>Vino tinto de las mejores bodegas. <span>$6.00</span></p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer id="contacto">
+    <p>Visítanos en Calle Principal #123, Ciudad. Teléfono: (123) 456-7890</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/gh/mtcraft22/mt-components/mt-horinzontal-sidebar.js"></script>
+  <script src="load.js"></script>
+
+</body>
+</html>
