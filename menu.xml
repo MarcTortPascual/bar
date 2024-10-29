@@ -36,5 +36,20 @@
     </plato>
 </comidas>
 <postres>
+    <plato nombre="tirámisu" precio="10€" img="./imagenes/tiramisu.png">
+        tirámisu de chocolate y nata.
+    </plato>
+    <plato nombre="tarta wisky" precio="6€" img="./imagenes/tartawisky.png">
+        tarta de wisky con nata.
+    </plato>
+    <plato nombre="browny" precio="15€" img="./imagenes/browny.png">
+       Bizcocho de chocolate con chocolate fundido.
+    </plato>
+    <plato nombre="flan con nata" precio="5€" img="./imagenes/flannata.png">
+        Flan con nata.
+    </plato>
+    <plato nombre="manzana de carmelo" precio="26€" img="./imagenes/manzanacaramelo.png">
+        manzana recubieta de caramelo.
+    </plato>
 </postres>
 </menu>
