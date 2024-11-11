@@ -20,7 +20,6 @@ fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").the
     let platos = parser.parseFromString(ret,"text/xml")
     console.log(platos.getElementsByTagName(pag)[0].children)
     let container = document.getElementsByTagName("section")[0]
-
     for ( let e of platos.getElementsByTagName(pag)[0].children){
         let divmain = document.createElement("div")
         divmain.setAttribute("class","menu-item")
@@ -34,13 +33,13 @@ fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").the
         tittle.innerHTML = e.getAttribute("nombre")
         let desc = document.createElement("p")
         desc.innerHTML =  e.innerHTML
+        let price = document.createElement("span")
+        price.innerHTML = e.getAttribute("precio")
+        desc.append(price)
         childdiv.append(tittle)
         childdiv.append(desc)
 
         divmain.append(childdiv)
         container.append(divmain)
-       
-        
     }
-    
 })
