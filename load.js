@@ -1,6 +1,5 @@
 let pag = location.href.split("/").slice(-1)[0].replace(".html","")
-/*https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml */
-fetch("menu.xml").then(
+fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").then(
    
     function(ret){
         if (ret.status ==200){
