@@ -1,10 +1,10 @@
 let pag = location.href.split("/").slice(-1)[0].replace(".html","")
-
-fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").then(
-    //transformamos los datos recividos a json
+/*https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml */
+fetch("menu.xml").then(
+   
     function(ret){
         if (ret.status ==200){
-            return ret.text
+            return ret.text()
         }
     }
 ).then(function(ret){
@@ -18,17 +18,15 @@ fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").the
     </div>
     */
     let parser = new DOMParser()
-    let xml = parser.parseFromString(ret,"text/xml")
+    let platos = parser.parseFromString(ret,"text/xml")
+    console.log(platos.getElementsByTagName(pag)[0].children)
     let container = document.getElementsByTagName("section")[0]
-    if (container){
-        container.remove()
-    }
-    container = document.createElement("section")
-    for ( let e of xml.getElementsByTagName(pag)[0].children){
+
+    for ( let e of platos.getElementsByTagName(pag)[0].children){
         let divmain = document.createElement("div")
         divmain.setAttribute("class","menu-item")
         let img = document.createElement("img")
-        img.setAttribute("img",e.getAttribute("img"))
+        img.setAttribute("src",e.getAttribute("img"))
         img.setAttribute("alt","Imagen de " + e.getAttribute("nombre"))
         divmain.append(img)
         let childdiv = document.createElement("div")
@@ -36,11 +34,14 @@ fetch("https://raw.githubusercontent.com/MarcTortPascual/bar/main/menu.xml").the
         let tittle  =  document.createElement("h3")
         tittle.innerHTML = e.getAttribute("nombre")
         let desc = document.createElement("p")
-        desc.innerHTML =  e.getAttribute("nombre")
+        desc.innerHTML =  e.innerHTML
         childdiv.append(tittle)
         childdiv.append(desc)
 
         divmain.append(childdiv)
         container.append(divmain)
+       
+        
     }
+    
 })

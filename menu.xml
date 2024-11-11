@@ -2,54 +2,55 @@
 
 <menu>
 <bebidas>
-    <plato nombre="coca-cola" precio="2€" img="./imagenes/cocacola.png">
-        plato refescante.
+    <plato nombre="coca-cola" precio="2€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg/338px-15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_%28Germany%29.jpg">
+        bebida refescante.
     </plato>
-    <plato nombre="vino tinto" precio="10€" img="./imagenes/vinotinto.png">
+    <plato nombre="vino tinto" precio="10€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Red_Wine_Glass.jpg/200px-Red_Wine_Glass.jpg">
         Vino tinto de la rioja.
     </plato>
-    <plato nombre="vino blanco" precio="15€" img="./imagenes/vinoblanco.png">
+    <plato nombre="vino blanco" precio="15€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/White_Wine_Glas.jpg/200px-White_Wine_Glas.jpg">
         Vino blanco del penedes.
     </plato>
-    <plato nombre="Fanta de naranja" precio="2€" img="./imagenes/fantanaranja.png">
+    <plato nombre="Fanta de naranja" precio="2€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mexican_Fanta.jpg/800px-Mexican_Fanta.jpg">
         plato refescante de naranja.
     </plato>
-    <plato nombre="cava" precio="100€" img="./imagenes/cava.png">
+    <plato nombre="cava" precio="100€" img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdivine.ca%2Fwp-content%2Fuploads%2F2020%2F04%2Fcq5dam.web_.1280.1280-47.jpeg">
         Cava espumoso semiseco, catalán.
     </plato>
 </bebidas>
 <comidas>
-    <plato nombre="tortilla de patatas" precio="50€" img="./imagenes/tortillapatatas.png">
+    <plato nombre="tortilla de patatas" precio="50€" img="https://upload.wikimedia.org/wikipedia/commons/5/5b/Tortilla-de-patatas.jpg">
         tortilla con patatas fritas.
     </plato>
-    <plato nombre="patatas bravas" precio="60€" img="./imagenes/patatasbravas.png">
+    <plato nombre="patatas bravas" precio="60€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Patatas_bravas_madrid.jpg/273px-Patatas_bravas_madrid.jpg">
         Patatas fritas con una salsa ligeramente picante.
     </plato>
-    <plato nombre="olivas rellenas de pimiento" precio="15€" img="./imagenes/olivaspimiento.png">
+    <plato nombre="olivas rellenas de pimiento" precio="15€" img="https://thumbs.dreamstime.com/b/aceitunas-rellenas-con-el-pimiento-morr%C3%B3n-41003302.jpg">
         Olivas de jaen rellenas de pimientos del padrón de galicia.
     </plato>
-    <plato nombre="pizza de la casa" precio="20€" img="./imagenes/pizzacasa.png">
+    <plato nombre="pizza de la casa" precio="20€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eataly_Las_Vegas_-_Feb_2019_-_Sarah_Stierch_12.jpg/273px-Eataly_Las_Vegas_-_Feb_2019_-_Sarah_Stierch_12.jpg">
         Pizza con carne picada, cebolla , pimentos y tomate.
     </plato>
-    <plato nombre="pizza de la casa del vecino" precio="26€" img="./imagenes/pizzacasavecino.png">
+    <plato nombre="pizza de la casa del vecino" precio="26€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pizza_capricciosa.jpg/250px-Pizza_capricciosa.jpg">
         Pizza con picada, cebolla y tomate.
     </plato>
 </comidas>
 <postres>
-    <plato nombre="tirámisu" precio="10€" img="./imagenes/tiramisu.png">
+    <plato nombre="tirámisu" precio="10€" img="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tiramisu_with_blueberries_and_raspberries%2C_July_2011.jpg/273px-Tiramisu_with_blueberries_and_raspberries%2C_July_2011.jpg">
         tirámisu de chocolate y nata.
     </plato>
-    <plato nombre="tarta wisky" precio="6€" img="./imagenes/tartawisky.png">
+    <plato nombre="tarta wisky" precio="6€" img="https://www.grupoestrellapolar.com/files/products/TARTA_WHISKY_1500_2.jpg">
         tarta de wisky con nata.
     </plato>
-    <plato nombre="browny" precio="15€" img="./imagenes/browny.png">
+    <plato nombre="browny" precio="15€" img="https://images.eatsmarter.de/sites/default/files/styles/max_size/public/brownies-mit-erdnussbutter-65315.jpg">
        Bizcocho de chocolate con chocolate fundido.
     </plato>
-    <plato nombre="flan con nata" precio="5€" img="./imagenes/flannata.png">
+    <plato nombre="flan con nata" precio="5€" img="https://plantaazul.com/images/showcase/FLAN-CON-NATA1.jpg">
         Flan con nata.
     </plato>
-    <plato nombre="manzana de carmelo" precio="26€" img="./imagenes/manzanacaramelo.png">
+    <plato nombre="manzana de carmelo" precio="26€" img="https://www.cocinayrecetasfaciles.com/files/styles/receta_facebook/public/receta/20200405_112335.jpg">
         manzana recubieta de caramelo.
     </plato>
+    
 </postres>
 </menu>
